@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Blog"
-description: "Acá compartimos nuestras experiencias."
+description: "Acá compartimos algunas de nuestras experiencias."
 header-img: "/img/about-bg.jpg"
 ---
 
@@ -17,7 +17,7 @@ header-img: "/img/about-bg.jpg"
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">Publicado por {{ post.author }} el {{ post.date | date: "%-d de %B de %Y" }}</p>
 </div>
 <hr>
 {% endfor %}
@@ -27,12 +27,12 @@ header-img: "/img/about-bg.jpg"
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Publicación más reciente</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Publicación más antigua &rarr;</a>
     </li>
     {% endif %}
 </ul>

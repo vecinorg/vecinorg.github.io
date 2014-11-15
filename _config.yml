@@ -1,11 +1,12 @@
 # Site settings
-title: Vecino
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+title: Vecino 
+email: info@vecino.com.co
+description: "Estamos desarrollando tecnologías para la comunidad."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://vecino.com.co"
 twitter_username: vecino_tw
-github_username: vecinorg 
+github_username:  vecinorg
+#facebook_username:  
 
 # Build settings
 markdown: kramdown
