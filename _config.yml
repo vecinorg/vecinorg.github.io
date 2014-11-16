@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://vecino.com.co"
 twitter_username: vecino_tw
 github_username:  vecinorg
-#facebook_username:  
+facebook_username: 490422051104332 
 
 # Build settings
 markdown: kramdown
