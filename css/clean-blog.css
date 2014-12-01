@@ -1,12 +1,24 @@
+@font-face {
+	font-family: 'SoundsGood';
+	src: url('/fonts/sounds__good-webfont.eot');
+	src: url('/fonts/sounds__good-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/sounds__good-webfont.woff') format('woff'),
+		 url('/fonts/sounds__good-webfont.ttf') format('truetype'),
+		 url('/fonts/sounds__good-webfont.svg#SoundsGood') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+//  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'SoundsGood';
   font-size: 20px;
   color: #404040;
 }
 p {
   line-height: 1.5;
   margin: 30px 0;
-  text-align: center;
 }
 p a {
   text-decoration: underline;
@@ -17,8 +29,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  //font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'SoundsGood';
+  font-weight: 400;
 }
 a {
   color: #404040;
@@ -48,15 +61,17 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  //font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'SoundsGood';
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  font-weight: 400;
+  font-size: 1.3em;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 800;
+  font-size: 0.7em;
+  font-weight: 600;
   letter-spacing: 1px;
 }
 @media only screen and (min-width: 768px) {
@@ -165,9 +180,27 @@ hr.small {
   font-size: 24px;
   line-height: 1.1,
 			display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  //font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'SoundsGood';
+  font-weight: 200;
   margin: 10px 0 0;
+}
+@media only screen and (max-width: 768px){
+  .intro-header .site-heading .subheading,
+  .intro-header .page-heading .subheading {
+	font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 680px){
+  .intro-header .site-heading .subheading,
+  .intro-header .page-heading .subheading {
+	font-size: 0.6em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .intro-header {
+	margin-top: 15px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
@@ -184,13 +217,15 @@ hr.small {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ // font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'SoundsGood';
   font-size: 24px;
   margin: 10px 0 30px;
-  font-weight: 600;
+  font-weight: 300;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  //font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'SoundsGood';
   font-style: italic;
   font-weight: 300;
   font-size: 20px;
@@ -322,7 +357,8 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  //font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'SoundsGood';
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -345,7 +381,8 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  //font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'SoundsGood';
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
