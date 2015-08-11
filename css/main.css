@@ -1,0 +1,19 @@
+img {
+  max-width: 100%;
+}
+
+.no-float {
+  float: none;
+}
+
+.espacio-arriba {
+  margin-top: 60px;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+.fuente-courgette {
+	font-family: 'Courgette', cursive;
+}
