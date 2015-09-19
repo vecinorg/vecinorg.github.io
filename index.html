@@ -1,22 +1,252 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<!-- CSS -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/main.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>vecino</title>
 
-	<!-- Fuentes -->
-	<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
-	
-	<title>vecino</title>
+  <!-- favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css"/>
 </head>
+
 <body>
-	<div class="col-md-8 center-block no-float text-center espacio-arriba">
-   		<img src="img/vecino.png">
-   		<h1 class="no-margin-top fuente-courgette">Próximamente</h1>
-   	</div>
-</body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+
+      <button type="button" class="btn c_btn_download" id="id_btn_DowNav">¡Descarga aquí!</button>
+
+      <div id="id_pointing_hand_left" class="animated shake">
+        <img src="img/pointing_hand.png">
+      </div>
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#"><img class="navbar-brand" src="img/vecino_logo.svg"></a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav fuente-700">
+          <li><a href="#">Inicio</a></li>	
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Tiendas</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Noticias</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <section id="id_sect_welcome_picture" class="c_section_home">
+    <div id="id_div_cont_imgWelcSec" class="container-fluid">
+      <img id="id_img_welcome_picture" src="img/ImageVecino.png" class="img-responsive">
+    </div>
+  </section>
+
+  <div id="id_div_cont_RegWelcSec" class="container-fluid pad-top-bot">
+    <div class="row" id="id_row_regSect">
+
+      <div class="col-md-1 c_regSect_blank"></div>
+
+      <div class="col-md-4 c_regSect"> 
+        <img src="img/celphone.png" style="height:100px"/> 
+        <h1 class="c_h1_regSect">Compra on-line</h1>
+        <p>Descarga VECINO APP, realiza tu pedido y recíbelo de forma sencilla.</p>
+        <p>
+          <span><a href="#"><img src="img/apple_download_icon.jpg" style="height:26pt;margin:0px;"/></a></span> 
+          <span><a href="#"><img src="img/google_download_icon.jpg" style="height:26pt;margin:0px;"/></a></span>
+        </p>
+      </div>
+
+      <div class="col-md-2 c_regSect_blank"></div>
+
+      <div class="col-md-4 c_regSect">
+        <img src="img/tienda.png" style="height:100px"/>
+        <h1 class="c_h1_regSect">Registra tu Negocio</h1>
+        <p>Registra tu negocio, trabaja con nosotros y administra tus domicilios con VECINO APP.</p> 
+        <button type="button" class="btn c_btn_download" style="height:26pt">Regístrate acá</button> 
+      </div>
+
+      <div class="col-md-1 c_regSect_blank"></div>
+
+    </div>
+  </div>
+
+  <div id="id_div_cont_StpsSec" class="container-fluid mar-top-bot">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <a href="#" class="thumbnail">
+          <img src="img/Descarga_step.png" alt="tienda">
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <a href="#" class="thumbnail">
+          <img src="img/Realiza_step.png" alt="tienda">
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <a href="#" class="thumbnail">
+          <img src="img/Recibe_step.png" alt="tienda">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="id_div_cont_howSec" class="container-fluid c_div_cont_Sec">
+
+    <div id="id_div_row_howSect" class="row">
+
+      <div id="" class="col-sm-1"></div>
+
+      <div id="" class="col-sm-4 col-xs-12 mar-bot-10">
+        <h1 class="c_h1_inSect">¿Cómo funciona?</h1>
+        <p>Mira el video y observa lo fácil que es usar VECINO.
+        Nunca había sido tan fácil y cómodo pedir tu domicilio</p>
+        <!--<button type="button" class="btn c_btn_WatVideo" style="height:26pt">Mira el video</button>-->
+      </div>
+
+      <div id="" class="col-sm-6 col-xs-12">
+        <iframe width="100%" height="300px;" src="https://www.youtube.com/embed/buCuAWprx3g"></iframe>
+      </div>
+
+      <div id="" class="col-sm-1"></div>
+
+    </div>
+
+  </div>
+
+  <div id="id_div_cont_coberSect" class="container-fluid c_div_cont_Sec">
+
+    <div id="id_div_row_cobSect" class="row">
+
+      <div id="" class="col-sm-1"></div>
+
+      <div id="" class="col-sm-4 col-xs-12 mar-bot-10">
+        <h1 class="c_h1_inSect">Nuestra Cobertura</h1>
+        <p><span style="text-decoration:underline;font-weight: bold;">¿Estás fuera de nuestra cobertura?</span>
+        Por favor, danos tu ubicación para servirte haciendo click en el siguiente botón:</p>
+        <button type="button" class="btn c_btn_WatVideo" style="height:26pt">¿Estás fuera?</button> 
+      </div>
+
+      <div id="" class="col-sm-6 col-xs-12">
+        <div id="map"></div>
+      </div>
+
+      <div id="" class="col-sm-1"></div>
+
+    </div>
+
+  </div>
+
+  <div id="id_div_cont_InqSect" class="container-fluid c_div_cont_Sec">
+
+    <div id="id_div_row_InqSect" class="row">
+
+      <div id="" class="col-sm-1"></div>
+
+      <div id="" class="col-sm-4 col-xs-12 text-center">
+        <img src="img/bag_inquery.png" style="width:150px;">
+      </div>
+
+      <div id="" class="col-sm-6 col-xs-12">
+        <h1 class="c_h1_inSect">¿Qué esperas de tu pedido?</h1>
+        <div class="row">
+        <table class="table borderless">
+          <tbody>
+            <tr>
+              <td>
+                <p class="lead">
+                  Velocidad de entrega
+                </p>
+              </td>
+              <td>
+                <button type="button" class="btn btn-default">No me importa</button>
+                <button type="button" class="btn btn-primary">Lo tengo en cuenta</button>
+                <button type="button" class="btn btn-success">Muy importante</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p class="lead">
+                  Variedad de productos
+                </p>
+              </td>
+              <td>
+                <button type="button" class="btn btn-default">No me importa</button>
+                <button type="button" class="btn btn-primary">Lo tengo en cuenta</button>
+                <button type="button" class="btn btn-success">Muy importante</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p class="lead">
+                  Precio
+                </p>
+              </td>
+              <td>
+                <button type="button" class="btn btn-default">No me importa</button>
+                <button type="button" class="btn btn-primary">Lo tengo en cuenta</button>
+                <button type="button" class="btn btn-success">Muy importante</button>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+        </div>
+      </div>
+
+      <div id="" class="col-sm-1"></div>
+    </div>
+  </div>
+
+<div  id="id_div_cont_FootSect" class="container-fluid text-center">
+  <p>Copyright &#169; 2015 Vecino app. Todos los derechos reservados. Vecino SAS. - Aviso legal - Política de Privacidad - info@vecino.com.co - Diseñado por Juan José Vidal "Miko"</p>
+</div>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <!-- Mapa -->
+  <script>
+    function initialize() {
+      var mapCanvas = document.getElementById('map');
+      var mapOptions = {
+        center: new google.maps.LatLng(4.697643, -74.035603),
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        disableDoubleClickZoom: true,
+        draggable: false,
+        scrollwheel: false
+      }
+      var map = new google.maps.Map(mapCanvas, mapOptions)
+
+      var cityCircle = new google.maps.Circle({
+        strokeColor: '#67C757',
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: '#67C757',
+        fillOpacity: 0.35,
+        map: map,
+        center: map.center,
+        radius: 800
+      });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+
+ </body>
 </html>
