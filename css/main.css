@@ -56,7 +56,7 @@
 
 .navbar-inverse .navbar-nav .active  a:focus{
   background-color:transparent;
- color: #777;
+  color: #777;
 	padding-bottom:0px;
 	border-bottom:3px solid #E7720F;
 	font-weight: bold;
@@ -110,6 +110,12 @@
 .shake {
   -webkit-animation-name: shake;
           animation-name: shake;
+}
+
+.row {
+    padding-right: 0px;
+      margin-right: 0px;
+
 }
 
 .container-fluid {
