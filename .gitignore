@@ -1,10 +1,1 @@
-## Jekyll generated site
-_site/
-
-## Cache
-.sass-cache/
-
-## Archivos swap generados por el editor de texto vim
-*.swp
-*.swo
-*.swn
+.DS_Store
