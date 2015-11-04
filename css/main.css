@@ -19,7 +19,7 @@
 .navbar-inverse .navbar-nav  li  a:hover{
 	color: #777;
 	padding-bottom:0px;
-	border-bottom:1px solid #E7720F;
+	border-bottom:3px solid #E7720F;
 }
 
 .navbar-inverse .navbar-nav  li  a:focus  {
@@ -111,4 +111,19 @@
 	 	height: 0px;
 	 	background-position: center; 
 	 }
+}
+
+/* FUENTES */
+.fuente-signika {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.4em;
+}
+
+.fuente-titillium {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* ESPACIOS */
+.mar-der-50 {
+  margin-right: 50px;
 }
