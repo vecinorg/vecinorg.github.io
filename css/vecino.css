@@ -368,6 +368,10 @@ body {
 .pad-top-100 {
   padding-top: 100px;
 }
+
+.pad-top-30 {
+  padding-top: 30px;
+}
 /* Espacios */
 
 /* Fuente Sounds Good */
@@ -415,7 +419,6 @@ ul.nav.navbar-nav li.dropdown:hover ul.dropdown-menu li a.item {
 }
 /* Dropdown */
 
-
 /* Formulario */
 .form-contacto {
   width: 100%;
@@ -441,3 +444,6 @@ ul.nav.navbar-nav li.dropdown:hover ul.dropdown-menu li a.item {
 .form-contacto button {
   margin: 35px;
 }
+/* Formulario */
+
+
