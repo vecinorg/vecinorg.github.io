@@ -65,6 +65,21 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2 class="pad-top-100">Contáctanos</h2>
                     <p>Escríbenos para obtener información detallada de nuestros servicios</p>
+
+                    <form class="form-contacto" action="http://formspree.io/programador@vecino.com.co" method="POST">
+                      <input type="email" name="_replyto" placeholder="Escribe aquí tu correo"><br>
+                      <textarea rows="4" cols="50" placeholder="Cuéntanos tus dudas o comentarios"></textarea><br>
+
+                      <input type="hidden" name="_next" value="gracias.html" />
+                      <input type="hidden" name="_subject" value="Contacto Página" />
+                      <input type="text" name="_gotcha" style="display:none" />
+
+
+                      <button class="btn btn-default btn-lg" type="submit">
+                        Enviar
+                      </button>
+                    </form>
+
                     <p><a href="mailto:info@vecino.com.co"><i class="fa fa-envelope"></i>  info@vecino.com.co</a></p>
                     <p><a href="tel:+573006671741"><i class="fa fa-phone"></i>  +57 300 667 1741</a></p>
                     <ul class="list-inline banner-social-buttons">

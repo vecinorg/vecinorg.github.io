@@ -414,3 +414,30 @@ ul.nav.navbar-nav li.dropdown:hover ul.dropdown-menu li a.item {
   }
 }
 /* Dropdown */
+
+
+/* Formulario */
+.form-contacto {
+  width: 100%;
+  position: relative;
+}
+
+.form-contacto input, textarea {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 10px 0;
+  background: transparent;
+    border: 1px solid #fff;
+  /*border: 1px solid red;*/
+  width: 100%;
+  font-size: 1.3em;
+}
+
+.form-contacto input:focus, textarea:focus{
+  outline: 0;
+}
+
+.form-contacto button {
+  margin: 35px;
+}
