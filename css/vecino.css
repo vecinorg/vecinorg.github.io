@@ -5,7 +5,7 @@
  */
 
 body {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
@@ -13,7 +13,7 @@ body {
 }
 
 html {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -364,8 +364,53 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+/* Espacios */
+.pad-top-100 {
+  padding-top: 100px;
+}
+/* Espacios */
+
 /* Fuente Sounds Good */
 @font-face {
   font-family: soundsGood;
   src: url(fuentes/sounds-good.ttf);
 }
+/* Fuente Sounds Good */
+
+
+/* Dropdown */
+.navbar-custom .nav > li.dropdown.active.open > a,
+.navbar-custom .nav > li.dropdown.active.open > ul.dropdown-menu a:hover,
+.navbar-custom .nav > li.dropdown.open > a,
+.navbar-custom .nav > li.dropdown.open > ul.dropdown-menu a:hover
+{
+  color: #fff;
+  background-color: rgba(255,255,255,.3);
+  border-color: #fff;
+}
+
+.dropdown-menu {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+ul.nav.navbar-nav li.dropdown.open ul.dropdown-menu li a.item {
+  color: #fff;
+}
+
+ul.nav.navbar-nav li.dropdown:hover ul.dropdown-menu li a.item:hover {
+  color: #fff;
+  background-color: rgba(255,255,255,.3);
+}
+
+ul.nav.navbar-nav li.dropdown:hover ul.dropdown-menu li a.item {
+  color: #fff;
+}
+
+@media (min-width: 979px) {
+  ul.nav.navbar-nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+/* Dropdown */
