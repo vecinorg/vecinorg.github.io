@@ -36,6 +36,10 @@ p {
     line-height: 1.5;
 }
 
+.no-float {
+  float: none;
+}
+
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
@@ -372,6 +376,14 @@ body {
 .pad-top-30 {
   padding-top: 30px;
 }
+
+.pad-top-60 {
+  padding-top: 60px;
+}
+
+.pad-bot-40 {
+  padding-bottom: 40px;
+}
 /* Espacios */
 
 /* Fuente Sounds Good */
@@ -395,7 +407,7 @@ body {
 
 .dropdown-menu {
   color: #fff;
-  background-color: transparent;
+  background-color: #000;
   border-color: transparent;
 }
 
@@ -424,7 +436,6 @@ ul.nav.navbar-nav li.dropdown:hover ul.dropdown-menu li a.item {
   width: 100%;
   position: relative;
 }
-
 .form-contacto input, textarea {
   text-align: center;
   box-sizing: border-box;
@@ -436,14 +447,35 @@ ul.nav.navbar-nav li.dropdown:hover ul.dropdown-menu li a.item {
   width: 100%;
   font-size: 1.3em;
 }
-
 .form-contacto input:focus, textarea:focus{
   outline: 0;
 }
-
 .form-contacto button {
   margin: 35px;
 }
-/* Formulario */
+/* /Formulario */
 
-
+/* Contenidos */
+section.contenido {
+  background-color: #FFF;
+  color: #000;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+section.contenido a {
+  color: #10A76E;
+}
+section.contenido p {
+  text-align: justify;
+}
+section.contenido .text-center p {
+  text-align: center;
+}
+@media(min-width:768px) {
+  section.contenido {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+}
+/* /Contenidos */
